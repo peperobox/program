@@ -1,0 +1,102 @@
+body {
+  font-family: Garamond;
+  background-color: #F5D6C6;
+  color: black;
+  /* font size and line height editing */
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+/* h1,3, author, figcaption appearance adj */
+h1 {
+  font-family: Futura;
+  font-size: 33px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-family: Futura;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.author {
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+p {
+  margin-bottom: .8em;
+}
+
+a {
+  /* removed underline for nav */
+  text-decoration: none;
+  color: #98DDDE;
+}
+
+nav {
+  /* changed font size, font type, weight and transformed to all uppercase */
+  font-size: 16px;
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  font-family: Futura;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul li a:hover {
+  color: #FA9A85;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
