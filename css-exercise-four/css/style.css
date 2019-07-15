@@ -43,12 +43,34 @@ img {
   text-transform: capitalize;
 }
 
-/* code added to create two-column design */
+/* code added to create two-column design (TABLET) */
 
 @media screen and (min-width: 575px)
 {
    div {
-    margin: 1%;
+    margin: 0 auto;
+    padding: 5px 0px;
     width: 48%;
+  }
+
+  #previews h1 {
+    font-size: 16px;
+    margin: -10px 0px 0px 20px;
+  }
+}
+
+/* code added to create 4-column design (DESKTOP) */
+
+@media screen and (min-width: 991px)
+{
+   div {
+    margin: 0 auto;
+    padding: 5px;
+    width: 38%;
+  }
+
+  #previews h1 {
+    font-size: 14px;
+    margin: -10px 0px 0px 20px;
   }
 }
