@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-  width: 100%;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -18,14 +18,14 @@ body {
   font-size: 14px;
   font-family: Open Sans;
   letter-spacing: 4px;
-  padding: 30px 0px 10px 0px;
+  padding: 40px;
   text-transform: uppercase;
   text-align: center;
 }
 
 div {
-  padding: 10px 0px;
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 /** not sure how to center the image inside crop **/
@@ -38,7 +38,6 @@ img {
   font-family: serif;
   float: left;
   letter-spacing: normal;
-  margin: 20px 0px 0px 50px;
   position: absolute;
   text-transform: capitalize;
 }
@@ -48,14 +47,11 @@ img {
 @media screen and (min-width: 575px)
 {
    div {
-    margin: 0 auto;
-    padding: 5px 0px;
     width: 48%;
   }
 
-  #previews h1 {
-    font-size: 16px;
-    margin: -10px 0px 0px 20px;
+  #previews {
+    float: left;
   }
 }
 
@@ -64,13 +60,6 @@ img {
 @media screen and (min-width: 991px)
 {
    div {
-    margin: 0 auto;
-    padding: 5px;
-    width: 38%;
-  }
-
-  #previews h1 {
-    font-size: 14px;
-    margin: -10px 0px 0px 20px;
+    width: 20%;
   }
 }
