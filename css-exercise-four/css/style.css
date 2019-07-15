@@ -39,12 +39,14 @@ img {
 
 @media screen and (min-width: 575px)
 {
+  section {
+    text-align: center;
+  }
   div {
+    display: inline-block;
+    padding: 5px;
     width: 38%;
     border: 5px solid #000000;
-  }
-  section {
-    float: left;
   }
 }
 
