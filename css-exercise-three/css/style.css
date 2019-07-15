@@ -44,12 +44,12 @@ body {
 }
 
 /* spacing */
-.content {
+#content {
   margin: 5%;
 }
 
 /* bold h1 and increase font size */
-h1 {
+#content h1 {
   font-weight: bold;
   font-size: 18px;
 }
