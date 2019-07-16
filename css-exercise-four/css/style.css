@@ -9,6 +9,30 @@ body {
   font-size: 20px;
 }
 
+.preview_baku {
+  background-image: url(../images/baku.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preview_london {
+  background-image: url(../images/london.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preview_madrid {
+  background-image: url(../images/madrid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preview_rome {
+  background-image: url(../images/rome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container > h1 {
   font-size: 14px;
   font-family: Open Sans;
@@ -19,8 +43,9 @@ body {
 }
 
 div {
-  overflow: hidden;
-  padding-bottom: 20px;
+  width: 100%;
+  height: 375px;
+  margin-bottom: 20px;
 }
 
 div > h1 {
@@ -30,23 +55,26 @@ div > h1 {
   position: absolute;
 }
 
-img {
-  width: 125%;
-  height: auto;
-}
-
 /* code added to create two-column design (TABLET) */
 
 @media screen and (min-width: 575px)
 {
-  section {
-    text-align: center;
-  }
   div {
-    display: inline-block;
-    padding: 5px;
-    width: 38%;
-    border: 5px solid #000000;
+    float: left;
+    margin: 0px;
+    width: 50%;
+    height: 300px;
+    border: 10px solid #dadada;
+  }
+
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  section {
+    padding: 0px 100px;
   }
 }
 
@@ -54,7 +82,4 @@ img {
 
 @media screen and (min-width: 991px)
 {
-   div {
-    width: 20%;
-  }
 }
