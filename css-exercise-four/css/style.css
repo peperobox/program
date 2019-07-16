@@ -64,10 +64,14 @@ div > h1 {
 @media screen and (min-width: 575px)
 {
   div {
-    float: left;
-    margin: 0px 0px 20px 20px;
-    width: 46%;
+    display: inline-block;
+    margin: 0px 5px 10px 5px;
+    width: 40%;
     height: 200px;
+  }
+
+  div > h1 {
+    margin: 30px 0px 0px 30px;
   }
 
   section:after {
@@ -77,15 +81,19 @@ div > h1 {
   }
 }
 
+  .container {
+    margin: auto;
+    text-align: center;
+  }
+
 /* code added to create 4-column design (DESKTOP) */
 
 @media screen and (min-width: 991px)
 {
     div {
-      float: left;
-      margin: 0px 0px 20px 50px;
-      width: 22%;
-      height: 300px;
+      margin: 0px 5px 0px 5px;
+      width: 19%;
+      height: 250px;
     }
 
     section:after {
