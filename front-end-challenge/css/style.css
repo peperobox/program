@@ -6,8 +6,8 @@
 
 body {
   background-color: white;
-  font-family: Open Sans;
-  font-size: 14px;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-size: 10px;
   line-height: 1.5em;
 }
 
@@ -18,18 +18,29 @@ body {
 	text-align: center;
 }
 
-.column h3 {
-	font-size: 16px;
+.column h5 {
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 10px;
 }
 
 .eastbound h1,.northbound h1 {
-	background-color: yellow;
-	padding: 10px;
-	margin-bottom: 5px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-color: rgba(255, 77, 25, 0.5);
+	padding: 20px 0px;
+}
+
+.lines {
+	width: 60%;
+	height: auto;
+	border: 5px solid #000000;
 }
 
 nav {
-	background-color: pink;
+	background-image: url(../images/status-bar.png);
+	background-repeat: no-repeat;
+  background-size: auto;
 	font-size: 10px;
 	padding: 10px;
 }
@@ -41,7 +52,12 @@ nav {
 .column {
 	border: 1px solid #000000;
 	display: inline-block;
+	height: auto;
 	padding: 10px;
-	width: 80%;
-	height: 10px;
+	text-align: left;
+	width: 38%;
+}
+
+section .bus-routes {
+	text-align: center;
 }
