@@ -1,0 +1,47 @@
+/* border: 5px solid #000000; */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.content h1 {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.column h3 {
+	font-size: 16px;
+}
+
+.eastbound h1,.northbound h1 {
+	background-color: yellow;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+nav {
+	background-color: pink;
+	font-size: 10px;
+	padding: 10px;
+}
+
+.arrow-left {
+	color: #FF7630;
+}
+
+.column {
+	border: 1px solid #000000;
+	display: inline-block;
+	padding: 10px;
+	width: 80%;
+	height: 10px;
+}
