@@ -82,4 +82,21 @@ div > h1 {
 
 @media screen and (min-width: 991px)
 {
+    div {
+      float: left;
+      margin: 0px;
+      width: 25%;
+      height: 300px;
+      border: 10px solid #dadada;
+    }
+
+    section:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    section {
+      padding: 0px 100px;
+    }
 }
