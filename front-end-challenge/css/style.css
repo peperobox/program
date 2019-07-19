@@ -8,6 +8,7 @@ body {
   background-color: white;
 	font-size: 15px;
   font-family: Futura, sans-serif;
+  line-height: 1.3em;
 }
 
 nav {
@@ -22,52 +23,46 @@ nav {
 	color: #FF7630;
 }
 
-.eastbound h1 {
-}
-
-.content h1 {
-	font-size: 22px;
+/** dividers **/
+.eastbound h1, .northbound h1, .southbound h1, .reroute h1, .out-of-service h1 {
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-color: rgba(255, 77, 25, 0.25);
+  font-size: 22px;
 	font-weight: 700;
+  padding: 20px;
 	text-transform: uppercase;
 	text-align: center;
 }
 
-/** dividers **/
-.eastbound h1,.northbound h1,.southbound h1, .reroute h1, .out-of-service h1 {
-	border-top: 2px solid;
-	border-bottom: 2px solid;
-	border-color: rgba(255, 77, 25, 0.25);
-}
-
-li div {
-	display: inline-block;
-	text-align: left;
-}
-
-ul {
-	text-align: center;
-}
-
-div .number {
-	background-image: linear-gradient(#FF3B30, #FF9500);
-	border-radius: 5px;
-	width: 45px;
-	height: 45px;
-}
-
 .bus-number {
-	font-weight: 700;
-	color: white;
-	width: 20%;
-	text-align: center;
-	border: 1px solid #000000;
+  border: 1px solid #000000;
+  background-image: linear-gradient(#FF3B30, #FF9500);
+	border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  width: 12%;
 }
 
 .bus-destination {
-	width: 35%;
-	border: 1px solid #000000;
+  border: 1px solid #000000;
+  text-align: left;
+  padding-left: 10px;
+  width: 40%;
 }
+
 .bus-frequency {
-	width: 30%;
-	border: 1px solid #000000;
+  border: 1px solid #000000;
+  text-align: left;
+  width: 35%;
+}
+
+li {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+li div {
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
 }
