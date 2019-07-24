@@ -21,38 +21,47 @@ nav {
 
 .arrow-left {
 	color: #FF7630;
+  margin: 45px 0px -45px 0px;
+}
+
+.header-title h2 {
+  background-color: rgba(255, 77, 25, 0.25);
+  font-size: 16px;
+  font-style: italic;
+  color: #FF3B30;
+  text-align: center;
+  padding: 10px;
 }
 
 /** dividers **/
 .eastbound h1, .northbound h1, .southbound h1, .reroute h1, .out-of-service h1 {
 	border-top: 2px solid;
-	border-bottom: 2px solid;
 	border-color: rgba(255, 77, 25, 0.25);
   font-size: 22px;
 	font-weight: 700;
-  padding: 20px;
+  padding-top: 25px;
 	text-transform: uppercase;
 	text-align: center;
 }
 
 .bus-number {
-  border: 1px solid #000000;
   background-image: linear-gradient(#FF3B30, #FF9500);
 	border-radius: 5px;
   color: white;
   font-weight: 700;
-  width: 12%;
+  width: 42px;
+  height: 42px
 }
 
 .bus-destination {
-  border: 1px solid #000000;
   text-align: left;
   padding-left: 10px;
-  width: 40%;
+  width: 46%;
+  height: 42px;
+  vertical-align: middle;
 }
 
 .bus-frequency {
-  border: 1px solid #000000;
   text-align: left;
   width: 35%;
 }
