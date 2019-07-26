@@ -50,8 +50,8 @@ nav {
 	border-radius: 5px;
   color: white;
   font-weight: 700;
-  width: 42px;
-  height: 42px;
+  width: 45px;
+  height: 45px;
 }
 
 .bus-destination {
@@ -74,7 +74,7 @@ li.arriving {
 
 li.arriving .bus-number {
     border: 2px solid #ffffff;
-    margin-left: -11px;
+    margin-left: -12px;
 }
 
 li.arriving h3 {
