@@ -1,4 +1,4 @@
-/* border: 5px solid #000000; */
+/* border: 1px solid #000000; */
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -57,29 +57,31 @@ nav {
 .bus-destination {
   text-align: left;
   padding-left: 15px;
-  width: 50%;
-  height: 42px;
+  width: 35%;
 }
 
 .bus-frequency {
   text-align: left;
-  width: 21%;
+  width: 33%;
 }
 
 li.arriving {
   background: #FF3B30;
   color: white;
-  vertical-align: middle;
 }
 
 li.arriving .bus-number {
     border: 2px solid #ffffff;
-    margin-left: -12px;
 }
 
 li.arriving h3 {
   font-family: Open Sans Condensed, sans-serif;
   text-transform: uppercase;
+}
+
+.arriving-bus-frequency {
+  width: 33%;
+    text-align: left;
 }
 
 li {
